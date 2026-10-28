@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+:root {
+  --color-canvas: #111417;
+  --color-surface-1: #1a1e23;
+  --color-surface-2: #22272e;
+  --color-surface-3: #272d35;
+  --color-border: #30363d;
+  --color-border-subtle: #21262d;
+  --color-primary: #4a6b82;
+  --color-primary-hover: #5a7e98;
+  --color-primary-accent: #a9cbe5;
+  --color-text-main: #e6edf3;
+  --color-text-muted: #8b949e;
+  --color-warning-amber: #8a785d;
+  --color-danger-crimson: #8c5353;
+}
+
+body {
+  margin: 0;
+  background-color: #111417;
+  color: #e6edf3;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Strict OpenType tabular figures for analytical numeric rendering */
+.tnum,
+.tabular-nums {
+  font-feature-settings: 'tnum' 1, 'ss01' 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom low-profile scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111417;
+}
+::-webkit-scrollbar-thumb {
+  background: #272d35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a6b82;
+}
+
+/* =========================================================================
+   LIGHT THEME OVERRIDES (Utilitarian Minimalist Slate Paper)
+   ========================================================================= */
+[data-theme="light"],
+.theme-light {
+  color-scheme: light;
+}
+
+[data-theme="light"] body {
+  background-color: #f6f8fa !important;
+  color: #1f2328 !important;
+}
+
+[data-theme="light"] .bg-\[\#111417\] {
+  background-color: #f6f8fa !important;
+}
+[data-theme="light"] .bg-\[\#1A1E23\] {
+  background-color: #ffffff !important;
+}
+[data-theme="light"] .bg-\[\#161A1E\] {
+  background-color: #f0f3f6 !important;
+}
+[data-theme="light"] .bg-\[\#22272E\] {
+  background-color: #e8ecf0 !important;
+}
+[data-theme="light"] .bg-\[\#1D2228\] {
+  background-color: #f8fafc !important;
+}
+[data-theme="light"] .bg-\[\#272D35\] {
+  background-color: #ffffff !important;
+}
+[data-theme="light"] .bg-\[\#1E232A\] {
+  background-color: #f3f6f9 !important;
+}
+[data-theme="light"] .bg-\[\#323538\] {
+  background-color: #eaeef2 !important;
+}
+
+[data-theme="light"] .border-\[\#30363D\] {
+  border-color: #d0d7de !important;
+}
+[data-theme="light"] .border-\[\#21262D\] {
+  border-color: #e8ecf0 !important;
+}
+[data-theme="light"] .border-\[\#42474C\] {
+  border-color: #b0b8c1 !important;
+}
+
+[data-theme="light"] .text-\[\#E6EDF3\] {
+  color: #1f2328 !important;
+}
+[data-theme="light"] .text-\[\#8B949E\] {
+  color: #57606a !important;
+}
+[data-theme="light"] .text-\[\#6E7681\] {
+  color: #6e7781 !important;
+}
+[data-theme="light"] .text-\[\#A9CBE5\] {
+  color: #245479 !important;
+}
+[data-theme="light"] .text-\[\#C2C7CD\] {
+  color: #3b434b !important;
+}
+
+[data-theme="light"] .bg-\[\#4A6B82\] {
+  background-color: #38566d !important;
+}
+[data-theme="light"] .hover\:bg-\[\#5A7E98\]:hover {
+  background-color: #294255 !important;
+}
+[data-theme="light"] .hover\:bg-\[\#22272E\]:hover {
+  background-color: #e8ecf0 !important;
+}
+[data-theme="light"] .hover\:bg-\[\#1E232A\]:hover {
+  background-color: #f0f4f8 !important;
+}
+[data-theme="light"] .hover\:bg-\[\#1A1E23\]:hover {
+  background-color: #eef2f6 !important;
+}
+
+[data-theme="light"] .bg-\[rgba\(108\,130\,153\,0\.12\)\] {
+  background-color: rgba(56, 86, 109, 0.08) !important;
+}
+[data-theme="light"] .text-\[\#9FB1C1\] {
+  color: #2c4a5e !important;
+}
+[data-theme="light"] .border-\[rgba\(108\,130\,153\,0\.25\)\] {
+  border-color: rgba(56, 86, 109, 0.25) !important;
+}
+
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  background-color: #ffffff !important;
+  color: #1f2328 !important;
+  border-color: #d0d7de !important;
+}
+
+[data-theme="light"] input::placeholder,
+[data-theme="light"] textarea::placeholder {
+  color: #8c959f !important;
+}
+
+[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #f6f8fa;
+}
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #d0d7de;
+}
+[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+  background: #38566d;
+}

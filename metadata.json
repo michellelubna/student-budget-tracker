@@ -1,0 +1,6 @@
+{
+  "name": "Utilitarian Slate Budget",
+  "description": "Systematic minimalist financial ledger and budget velocity tool engineered for students and early-career professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,224 @@
+---
+name: Utilitarian Slate Budget
+colors:
+  surface: '#111417'
+  surface-dim: '#111417'
+  surface-bright: '#37393d'
+  surface-container-lowest: '#0b0e11'
+  surface-container-low: '#191c1f'
+  surface-container: '#1d2023'
+  surface-container-high: '#272a2d'
+  surface-container-highest: '#323538'
+  on-surface: '#e1e2e7'
+  on-surface-variant: '#c2c7cd'
+  inverse-surface: '#e1e2e7'
+  inverse-on-surface: '#2e3134'
+  outline: '#8c9197'
+  outline-variant: '#42474c'
+  surface-tint: '#a9cbe5'
+  primary: '#a9cbe5'
+  on-primary: '#0e3448'
+  primary-container: '#4a6b82'
+  on-primary-container: '#d0eaff'
+  inverse-primary: '#416279'
+  secondary: '#b2c9e2'
+  on-secondary: '#1c3246'
+  secondary-container: '#33495e'
+  on-secondary-container: '#a1b7d0'
+  tertiary: '#accbde'
+  on-tertiary: '#143443'
+  tertiary-container: '#4d6b7c'
+  on-tertiary-container: '#cbebfe'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#c8e6ff'
+  primary-fixed-dim: '#a9cbe5'
+  on-primary-fixed: '#001e2e'
+  on-primary-fixed-variant: '#284a60'
+  secondary-fixed: '#cee5ff'
+  secondary-fixed-dim: '#b2c9e2'
+  on-secondary-fixed: '#041d30'
+  on-secondary-fixed-variant: '#33495e'
+  tertiary-fixed: '#c7e7fa'
+  tertiary-fixed-dim: '#accbde'
+  on-tertiary-fixed: '#001e2b'
+  on-tertiary-fixed-variant: '#2c4a5a'
+  background: '#111417'
+  on-background: '#e1e2e7'
+  surface-variant: '#323538'
+typography:
+  display:
+    fontFamily: Inter
+    fontSize: 2.5rem
+    fontWeight: '600'
+    lineHeight: 3rem
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 2rem
+    fontWeight: '600'
+    lineHeight: 2.5rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.875rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 1.125rem
+    fontWeight: '500'
+    lineHeight: 1.625rem
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.375rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '400'
+    lineHeight: 1.125rem
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 0.6875rem
+    fontWeight: '500'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+  numeric-metric:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.02em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system is engineered for modern university and early-career students managing recurring costs, shared bills, and tight daily budgets. The interface rejects gamified visual noise, aggressive neons, and gendered cues in favor of a calm, utilitarian, and understated dark architecture.
+
+The personality balances computational rigor with quiet assurance:
+- **Tone**: Focused, pragmatic, discreet, and reliable.
+- **Atmosphere**: A low-fatigue workspace calibrated for evening study sessions and rapid on-the-go transaction logging.
+- **Design Movement**: Systematic Minimalist Modern. Structured information density is paired with disciplined slate-teal tones, crisp hairline borders, and functional data contrast.
+
+## Colors
+
+The palette establishes an analytical, neutral-dark environment using desaturated slate, cool graphite, and muted slate-teal highlights.
+
+### Palette Hierarchy
+- **Canvas Base (`#121518`)**: Deep charcoal graphite providing eye relief and infinite ground depth.
+- **Surface Elevation (`#1A1E23`, `#22272E`)**: Subtly lifted tonal containers for data groupings, transaction lists, and analytics widgets.
+- **Primary Accent (`#4A6B82`)**: A tempered slate-teal used for primary affordances, active filters, and positive financial balance indicators without resorting to garish emeralds.
+- **Secondary & Tertiary Elements (`#6C8299`, `#5E7C8D`)**: Controlled cool-slate variations used for category tags, subtle data visualizations, and progress tracks.
+- **Text & Foreground**:
+  - Primary text: Soft off-white (`#E6EDF3`) achieving AAA contrast without harsh optical flare.
+  - Secondary text: Neutral slate gray (`#8B949E`) for metadata, timestamps, and recurring payment labels.
+  - Borders & Dividers: Cool slate hairline (`#30363D`).
+
+## Typography
+
+The type scale relies exclusively on Inter to provide typographic neutrality, balanced tabular numeral alignment, and crisp rendering on screens of any density.
+
+### Principles
+- **Tabular Figures**: Numeric totals, balances, and transaction rows must leverage OpenType `tnum` features to maintain strict vertical alignments across columns.
+- **Dense Hierarchies**: Weight shifts (400 regular, 500 medium, 600 semibold) demarcate financial priority rather than exaggerated size jumps.
+- **Tight Kerning**: Headlines apply negative tracking (`-0.01em` to `-0.03em`) to anchor numeric summaries cleanly within widgets.
+
+## Layout & Spacing
+
+A compact, responsive layout model suited for high-density information. The grid utilizes 4 columns on mobile, 8 columns on tablet, and a 12-column fluid structure on desktop with a capped maximum width of 1280px.
+
+### Spatial Rhythm
+- **Rhythm Multiplier**: All layout gaps, gutters, and paddings adhere strictly to a 4px/8px base cadence.
+- **Mobile Density**: Compact paddings (`space-sm` to `space-md`) prevent vertical scroll bloat, keeping month-to-date spending summaries above the mobile fold.
+- **Desktop Distribution**: Metrics, category velocity, and transaction ledgers reflow into a 3-column dashboard arrangement (4-col primary metrics, 5-col transaction table, 3-col recurring commitments).
+
+## Elevation & Depth
+
+Depth is established primarily through **tonal layering and low-contrast perimeter boundaries** rather than ambient drop shadows, maintaining a clean, architectural aesthetic.
+
+### Layer Architecture
+- **Base Level (`#121518`)**: Application viewport canvas.
+- **Container Level 1 (`#1A1E23`)**: Standard cards, budget overview containers, and side rail navigation. Enclosed by a 1px solid border (`#30363D`).
+- **Container Level 2 (`#22272E`)**: Hovered list entries, secondary cards, inner metric pods, and segmented controls.
+- **Floating Overlays (`#272D35`)**: Popovers, modal dialogs, and date pickers. Enhanced with a subtle, non-diffuse utility shadow: `0 8px 24px rgba(0, 0, 0, 0.45)` bordered with `rgba(255, 255, 255, 0.08)`.
+
+## Shapes
+
+The geometric framework follows level `1` (Soft):
+- **Base Surfaces & Inputs**: `0.25rem` (4px) corner radii for a precise, technical silhouette.
+- **Cards & Data Modules**: `rounded-lg` at `0.5rem` (8px), softening structural boundaries without feeling playful or juvenile.
+- **Modal Dialogs & Floating Sheets**: `rounded-xl` at `0.75rem` (12px).
+- **Badges & Progress Trackers**: Maintain the 4px baseline, keeping line edges rectilinear and orderly across multi-row feeds.
+
+## Components
+
+### Buttons
+- **Primary**: Background `#4A6B82`, text `#FFFFFF`, border none, 4px border radius. Hover: `#5A7E98`. Focus ring: 2px offset slate outline.
+- **Secondary / Ghost**: Background `transparent`, text `#E6EDF3`, border `1px solid #30363D`. Hover: `#22272E`.
+- **Destructive**: Background `rgba(180, 75, 75, 0.15)`, text `#F87171`, border `1px solid rgba(248, 113, 113, 0.3)`.
+
+### Input Fields & Controls
+- **Text & Numeric Inputs**: Background `#161A1E`, border `1px solid #30363D`, text `#E6EDF3`, placeholder `#6E7681`. Focus state transitions to `1px solid #4A6B82` with no chromatic glow.
+- **Checkboxes & Radios**: 16px square/circle with `1px solid #4A6B82`. Checked state fills `#4A6B82` displaying crisp off-white vector marks.
+
+### Cards & Ledger Lists
+- **Cards**: Background `#1A1E23`, border `1px solid #30363D`, padding `space-lg`, border-radius 8px.
+- **Transaction Rows**: Flat tabular rows with subtle horizontal hairline borders (`#21262D`). Left-aligned date and merchant description, right-aligned monetary value using tabular numbers. Hover background tint `#1E232A`.
+
+### Category Chips & Badges
+- Compact padding (`0.25rem 0.5rem`), font `label-sm`, border-radius 4px.
+- Background `rgba(108, 130, 153, 0.12)`, text `#9FB1C1`, border `1px solid rgba(108, 130, 153, 0.25)`.
+
+### Budget Progress Indicators
+- **Track**: `#22272E`, height 6px, border-radius 2px.
+- **Indicator Fill**: Solid `#4A6B82` for normal spend thresholds; switches to `#8A785D` (muted amber) at 85% limit and `#8C5353` (subdued crimson) only upon breach.
